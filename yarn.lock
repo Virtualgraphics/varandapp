@@ -5310,6 +5310,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"daisy-ui-react@npm:^0.0.2-j":
+  version: 0.0.2-j
+  resolution: "daisy-ui-react@npm:0.0.2-j"
+  peerDependencies:
+    daisyui: ">=1.14.3"
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: f06e0bc3953880a28141bc9b338ff7bd12f087fd2185bcc3ea2df41f8c7832b0054c9bb3f7d7c0eb94cac5471c93ce2f8283760849e33d6c13aafd57b6465860
+  languageName: node
+  linkType: hard
+
 "daisyui@npm:^2.46.1":
   version: 2.46.1
   resolution: "daisyui@npm:2.46.1"
@@ -10763,6 +10774,7 @@ __metadata:
     "@types/node": ^18.11.9
     "@types/react": ^18.0.25
     autoprefixer: ^10.4.13
+    daisy-ui-react: ^0.0.2-j
     daisyui: ^2.46.1
     eslint: ^8.28.0
     eslint-config-next: ^13.0.4

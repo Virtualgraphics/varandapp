@@ -16,7 +16,6 @@
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
     "autoprefixer": "^10.4.13",
-    "daisyui": "^2.46.1",
     "heroicons": "^2.0.13",
     "next": "^13",
     "postcss": "^8.4.21",

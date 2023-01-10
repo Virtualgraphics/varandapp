@@ -1,6 +1,14 @@
 import type { NextPage } from "next";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
+import { ThirdwebProvider } from "@thirdweb-dev/react/solana";
+import { Network } from "@thirdweb-dev/sdk/solana";
+
+
+
+
+
 
 
 
@@ -41,18 +49,17 @@ const Home: NextPage = () => {
             alt="sol"
           />
         </div>
-        <h1 className= "text-xl" >Solana  meet and Greet👋</h1>
+        <h1 className= "text-sm" >Solana  meet and Greet👋</h1>
         <p className= "text-xl">The quick brown fox ...</p>
           Explore what you can do with thirdweb&rsquo;s brand new{" "}
           <b>
           
           </b>
-          .
+          
        
 
         <WalletMultiButtonDynamic/>
-      </div>
-   
+        </div>
   );
 };
 
