@@ -900,6 +900,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@heroicons/react@npm:^2.0.14":
+  version: 2.0.14
+  resolution: "@heroicons/react@npm:2.0.14"
+  peerDependencies:
+    react: ">= 16"
+  checksum: d1623865c04e2bedc1ae370ca0a305bb0c775c7db171e29d03afc3032598105b7e8c9290e7d6b34a5f334e2a2c92e8e2aac1c5e89d1ea1fb7073cce6e03a7f16
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.8":
   version: 0.11.8
   resolution: "@humanwhocodes/config-array@npm:0.11.8"
@@ -5027,7 +5036,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color@npm:^4.2, color@npm:^4.2.3":
+"color@npm:^4.2.3":
   version: 4.2.3
   resolution: "color@npm:4.2.3"
   dependencies:
@@ -5241,16 +5250,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-selector-tokenizer@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "css-selector-tokenizer@npm:0.8.0"
-  dependencies:
-    cssesc: ^3.0.0
-    fastparse: ^1.1.2
-  checksum: 1eb7ca7d2c21ede700a0fab7df4547198431c30ba62663d81a566a8abe6ab7524f627ce6c0bde63f34917e199b73be4081e449bd8faf107d155766204082aa0a
-  languageName: node
-  linkType: hard
-
 "cssesc@npm:^3.0.0":
   version: 3.0.0
   resolution: "cssesc@npm:3.0.0"
@@ -5307,32 +5306,6 @@ __metadata:
     es5-ext: ^0.10.50
     type: ^1.0.1
   checksum: 49ca0639c7b822db670de93d4fbce44b4aa072cd848c76292c9978a8cd0fff1028763020ff4b0f147bd77bfe29b4c7f82e0f71ade76b2a06100543cdfd948d19
-  languageName: node
-  linkType: hard
-
-"daisy-ui-react@npm:^0.0.2-j":
-  version: 0.0.2-j
-  resolution: "daisy-ui-react@npm:0.0.2-j"
-  peerDependencies:
-    daisyui: ">=1.14.3"
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-  checksum: f06e0bc3953880a28141bc9b338ff7bd12f087fd2185bcc3ea2df41f8c7832b0054c9bb3f7d7c0eb94cac5471c93ce2f8283760849e33d6c13aafd57b6465860
-  languageName: node
-  linkType: hard
-
-"daisyui@npm:^2.46.1":
-  version: 2.46.1
-  resolution: "daisyui@npm:2.46.1"
-  dependencies:
-    color: ^4.2
-    css-selector-tokenizer: ^0.8.0
-    postcss-js: ^4.0.0
-    tailwindcss: ^3
-  peerDependencies:
-    autoprefixer: ^10.0.2
-    postcss: ^8.1.6
-  checksum: 6385e1d322e893568739c29908e592d9a95deee3599aac6fac2ebdc84c871d97d0c97d24e779587f86fb4c66e83213b721b72de9df5b76bbf206757318a2e382
   languageName: node
   linkType: hard
 
@@ -6536,13 +6509,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastparse@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "fastparse@npm:1.1.2"
-  checksum: c4d199809dc4e8acafeb786be49481cc9144de296e2d54df4540ccfd868d0df73afc649aba70a748925eb32bbc4208b723d6288adf92382275031a8c7e10c0aa
-  languageName: node
-  linkType: hard
-
 "fastq@npm:^1.6.0":
   version: 1.15.0
   resolution: "fastq@npm:1.15.0"
@@ -7033,10 +6999,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"heroicons@npm:^2.0.13":
-  version: 2.0.13
-  resolution: "heroicons@npm:2.0.13"
-  checksum: faf188c80d555ef35ea4ef3eb3cffe562a2ec8ed29cc56d3bf1cc556f967cf3db3fa6140249da997f7ebf19395673b18b0be91d2a4539a5a91bcb608a49f651d
+"heroicons@npm:^2.0.14":
+  version: 2.0.14
+  resolution: "heroicons@npm:2.0.14"
+  checksum: ca0845521b0a756329410c57e5e092abdabfc863738f15be7b35865bdfcb88530c211025807029635201552795b054cd0b1dccc2d56701f24f5e70394b47be46
   languageName: node
   linkType: hard
 
@@ -10304,7 +10270,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3, tailwindcss@npm:^3.2.4":
+"tailwindcss@npm:^3.2.4":
   version: 3.2.4
   resolution: "tailwindcss@npm:3.2.4"
   dependencies:
@@ -10766,6 +10732,7 @@ __metadata:
   resolution: "varandapp@workspace:."
   dependencies:
     "@headlessui/react": ^1.7.7
+    "@heroicons/react": ^2.0.14
     "@solana/wallet-adapter-react": ^0.15.24
     "@solana/wallet-adapter-react-ui": ^0.9.22
     "@solana/wallet-adapter-wallets": ^0.19.5
@@ -10774,11 +10741,9 @@ __metadata:
     "@types/node": ^18.11.9
     "@types/react": ^18.0.25
     autoprefixer: ^10.4.13
-    daisy-ui-react: ^0.0.2-j
-    daisyui: ^2.46.1
     eslint: ^8.28.0
     eslint-config-next: ^13.0.4
-    heroicons: ^2.0.13
+    heroicons: ^2.0.14
     next: ^13
     postcss: ^8.4.21
     react: ^18.2

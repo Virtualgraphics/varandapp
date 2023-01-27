@@ -4,12 +4,8 @@ import Image from "next/image";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import { ThirdwebProvider } from "@thirdweb-dev/react/solana";
 import { Network } from "@thirdweb-dev/sdk/solana";
-
-
-
-
-
-
+import { Default } from 'components/layouts/Default';
+import { Home } from 'components/templates/home';
 
 
 
@@ -19,48 +15,22 @@ const WalletMultiButtonDynamic = dynamic(
   { ssr: false }
 );
 
-const Home: NextPage = () => {
-  // Here's how to get the thirdweb SDK instance
-  // const sdk = useSDK();
-  // Here's how to get a nft collection
-  // const { program } = useProgram(
-  //   your_nft_collection_address,
-  //   "nft-collection"
-  // );
-
+const HomePage: NextPage = () => {
   return (
   
-      <div>
-        <div>
-          <Image
-            src="/thirdweb.svg"
-            height={75}
-            width={115}
-            style={{
-              objectFit: "contain",
-            }}
-            alt="thirdweb"
-          />
-          <Image
-            width={75}
-            height={75}
-            src="/sol.png"
-        
-            alt="sol"
-          />
-        </div>
-        <h1 className= "text-sm" >Solana  meet and Greet👋</h1>
-        <p className= "text-xl">The quick brown fox ...</p>
-          Explore what you can do with thirdweb&rsquo;s brand new{" "}
-          <b>
-          
-          </b>
-          
-       
+    
+    <Default pageName="SKY GODZ-We Were Never Alone">
 
-        <WalletMultiButtonDynamic/>
-        </div>
+    <Home />
+  
+
+    </Default>
+  
+
+
+
   );
 };
 
-export default Home;
+
+export default HomePage;
