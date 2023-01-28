@@ -1,5 +1,11 @@
 
 import * as React from 'react'
+import FrontSlider from '../frontslider/Frontslider';
+import { Hero } from '../hero';
+import { Intro } from '../intro';
+
+
+
 
 
 
@@ -12,9 +18,11 @@ import * as React from 'react'
 
    <div>  
 
-<h1 className='text-black text-3xl'>HOMEPAGE</h1>
+<FrontSlider/>
 
- 
+<Hero/>
+
+<Intro/>
 
 </div>
 )

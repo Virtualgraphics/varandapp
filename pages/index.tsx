@@ -4,8 +4,8 @@ import Image from "next/image";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import { ThirdwebProvider } from "@thirdweb-dev/react/solana";
 import { Network } from "@thirdweb-dev/sdk/solana";
-import { Default } from 'components/layouts/Default';
-import { Home } from 'components/templates/home';
+import { Default } from '../components/layouts/Default';
+import { Home } from '../components/templates/home';
 
 
 
@@ -19,7 +19,7 @@ const HomePage: NextPage = () => {
   return (
   
     
-    <Default pageName="SKY GODZ-We Were Never Alone">
+    <Default pageName="SAVAGE VARAN SOCIETY">
 
     <Home />
   

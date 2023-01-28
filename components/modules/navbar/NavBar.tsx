@@ -3,6 +3,9 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Link from 'next/link'
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+// Default styles that can be overridden by your app
+require("@solana/wallet-adapter-react-ui/styles.css");
 
 const navigation = [
   { name: 'HOME', href:'/', current: true },
@@ -17,7 +20,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-black fixed top-0 z-30 w-full border-b-2 border-b-indigo-200/30">
+    <Disclosure as="nav" className="bg-lime-900 fixed top-0 z-30 w-full border-b-2 border-b-lime-200/30">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -51,7 +54,7 @@ export default function Example() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-indigo-500/30 text-white' : 'text-gray-300 hover:bg-indigo-500/30 hover:text-white',
+                          item.current ? 'bg-green-500/30 text-white' : 'text-gray-300 hover:bg-green-500/30 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
@@ -66,7 +69,7 @@ export default function Example() {
                 
                   <div>
                   
-                  
+                  <WalletMultiButton />
 
                   </div>
                   

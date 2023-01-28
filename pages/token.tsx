@@ -1,6 +1,7 @@
-import { Default } from 'components/layouts/Default';
-import { Token } from 'components/templates/token';
+
 import type { NextPage } from 'next';
+import { Default } from '../components/layouts/Default';
+import { Token } from '../components/templates/token';
 
 const TOKEN: NextPage = () => {
   return (
@@ -8,7 +9,7 @@ const TOKEN: NextPage = () => {
 
     <Default pageName="Token">
 
-    <Token />
+<Token/>
 
   </Default>
 

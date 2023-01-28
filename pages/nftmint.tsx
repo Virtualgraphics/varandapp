@@ -1,5 +1,5 @@
-import { NFTMint } from '@/components/templates/NFTMint';
-import { Default } from '@/components/layouts/Default';
+import { NFTMint } from '../components/templates/NFTMint';
+import { Default } from '../components/layouts/Default';
 
 import type { NextPage } from 'next';
 
