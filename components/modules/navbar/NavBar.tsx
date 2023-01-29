@@ -9,6 +9,7 @@ require("@solana/wallet-adapter-react-ui/styles.css");
 
 const navigation = [
   { name: 'HOME', href:'/', current: true },
+  { name: 'ISLAND', href: 'island', current: false },
   { name: 'GAMES', href: 'games', current: false },
   { name: 'NFTs', href: 'nftmint', current: false },
   { name: 'TOKENS', href: 'token', current: false },

@@ -8,7 +8,15 @@ module.exports = {
   ],
   theme: {
     
-    extend: {},
+    extend: {
+
+      fontFamily: {
+        Bowlby: ["Bowlby","sans-serif"],
+        Josefin: ["Josefin", "sans-serif"],
+      },
+     
+
+    },
   },
   plugins: [],
 }
