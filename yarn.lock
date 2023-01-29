@@ -244,6 +244,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@coral-xyz/borsh@npm:^0.26.0":
+  version: 0.26.0
+  resolution: "@coral-xyz/borsh@npm:0.26.0"
+  dependencies:
+    bn.js: ^5.1.2
+    buffer-layout: ^1.2.0
+  peerDependencies:
+    "@solana/web3.js": ^1.68.0
+  checksum: 8418264ec64f926264adfaa9cff2323a7675b0df3b06b30043d256f1f3ed8fa68d6268f93600656a1ddcb953032ab41674f04e2387504f32d041b75fa3152a30
+  languageName: node
+  linkType: hard
+
 "@emotion/babel-plugin@npm:^11.10.5":
   version: 11.10.5
   resolution: "@emotion/babel-plugin@npm:11.10.5"
@@ -1204,9 +1216,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metaplex-foundation/js@npm:^0.17.6":
-  version: 0.17.12
-  resolution: "@metaplex-foundation/js@npm:0.17.12"
+"@metaplex-foundation/js@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "@metaplex-foundation/js@npm:0.18.0"
   dependencies:
     "@bundlr-network/client": ^0.8.8
     "@metaplex-foundation/beet": 0.7.1
@@ -1214,7 +1226,7 @@ __metadata:
     "@metaplex-foundation/mpl-candy-guard": ^0.3.0
     "@metaplex-foundation/mpl-candy-machine": ^5.0.0
     "@metaplex-foundation/mpl-candy-machine-core": ^0.1.2
-    "@metaplex-foundation/mpl-token-metadata": ^2.3.3
+    "@metaplex-foundation/mpl-token-metadata": ^2.7.0
     "@noble/ed25519": ^1.7.1
     "@noble/hashes": ^1.1.3
     "@solana/spl-token": ^0.3.5
@@ -1230,7 +1242,7 @@ __metadata:
     merkletreejs: ^0.2.32
     mime: ^3.0.0
     node-fetch: ^2.6.7
-  checksum: eec4fdec278a8414d80811a5ac67895f76b1103f9c3c170267321ccee96cfe490bb55022305d99e88d79e3b4e20344c623d5524ae89e30e9e542ed565f336e77
+  checksum: ecb6fade6280685744ded8ea56ad8a6191f32a07c3bd567404cf4f64dc7084dc35155607da1a1c1afdc6466916664f7275863f79a3e0e7ae9f3af0282c24f310
   languageName: node
   linkType: hard
 
@@ -1287,9 +1299,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metaplex-foundation/mpl-token-metadata@npm:^2.3.3":
-  version: 2.5.2
-  resolution: "@metaplex-foundation/mpl-token-metadata@npm:2.5.2"
+"@metaplex-foundation/mpl-token-metadata@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@metaplex-foundation/mpl-token-metadata@npm:2.7.0"
   dependencies:
     "@metaplex-foundation/beet": ^0.7.1
     "@metaplex-foundation/beet-solana": ^0.4.0
@@ -1298,7 +1310,7 @@ __metadata:
     "@solana/web3.js": ^1.66.2
     bn.js: ^5.2.0
     debug: ^4.3.4
-  checksum: d263ad9faf0cb653783a68f0859ef35a8347b1d4b9cfccc354f9299712238cb823823ce41bc6dc223631da516e3f539ec7e0020ab58acfa2208662fb6b4a5051
+  checksum: cffa4e2e249639536b7d3680f440c67814ee16705de7de4747ee0ffe415d717c572dadc6300b8cbc55da73b11ddc8a585a9aeef1da0615e708f5b4c05da821ae
   languageName: node
   linkType: hard
 
@@ -1535,17 +1547,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@project-serum/anchor@npm:^0.25.0":
-  version: 0.25.0
-  resolution: "@project-serum/anchor@npm:0.25.0"
+"@project-serum/anchor@npm:^0.26.0":
+  version: 0.26.0
+  resolution: "@project-serum/anchor@npm:0.26.0"
   dependencies:
-    "@project-serum/borsh": ^0.2.5
-    "@solana/web3.js": ^1.36.0
+    "@coral-xyz/borsh": ^0.26.0
+    "@solana/web3.js": ^1.68.0
     base64-js: ^1.5.1
     bn.js: ^5.1.2
     bs58: ^4.0.1
     buffer-layout: ^1.2.2
-    camelcase: ^5.3.1
+    camelcase: ^6.3.0
     cross-fetch: ^3.1.5
     crypto-hash: ^1.3.0
     eventemitter3: ^4.0.7
@@ -1554,19 +1566,7 @@ __metadata:
     snake-case: ^3.0.4
     superstruct: ^0.15.4
     toml: ^3.0.0
-  checksum: 38c2f463a4b698c52f6334cd991cf1cafd5c8f772811f369adb914b217f819fb3d22acb881b6ad94b49f62b738c5ac3f7a087ae5e9bb1a9c1b9485dff380d060
-  languageName: node
-  linkType: hard
-
-"@project-serum/borsh@npm:^0.2.5":
-  version: 0.2.5
-  resolution: "@project-serum/borsh@npm:0.2.5"
-  dependencies:
-    bn.js: ^5.1.2
-    buffer-layout: ^1.2.0
-  peerDependencies:
-    "@solana/web3.js": ^1.2.0
-  checksum: 7bdc25e8d6cca13166869c8f09db2fabf103e8dc4861f09f277bb0080dfaaed9f50d4b5e2579bc2c975db263faaa92539d5ddb84a2f4d8cf09f3c6e6bddf79e1
+  checksum: aa2ebd9c9643d9b7d2c0930c22ca3758cf28a9f99585731ab6e61cd265d5a67de196dc51f9a91970387d21c4737de65c914657ad4d10535539baca7aa3309f15
   languageName: node
   linkType: hard
 
@@ -2098,18 +2098,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solana/wallet-adapter-phantom@npm:^0.9.17, @solana/wallet-adapter-phantom@npm:^0.9.19":
-  version: 0.9.19
-  resolution: "@solana/wallet-adapter-phantom@npm:0.9.19"
+"@solana/wallet-adapter-phantom@npm:^0.9.20":
+  version: 0.9.20
+  resolution: "@solana/wallet-adapter-phantom@npm:0.9.20"
   dependencies:
     "@solana/wallet-adapter-base": ^0.9.20
   peerDependencies:
     "@solana/web3.js": ^1.58.0
-  checksum: 4aea8c98fe60b312e9e40d10b1d90cec20087cc4b6c1372a15c0cea9753c465012792ba36d04b6dc296a399465b8516ae2af41a34512410560faaf43a141082c
+  checksum: a8cd678c7fcf6b58c31b7040d8ae556ffea8c5683036d87cea39f95110e0d9fde6d854e1ea253c56fea5a779f2a71274ba8320c3370ef7f3c3c803dc41778771
   languageName: node
   linkType: hard
 
-"@solana/wallet-adapter-react-ui@npm:^0.9.22":
+"@solana/wallet-adapter-react-ui@npm:^0.9.27":
   version: 0.9.27
   resolution: "@solana/wallet-adapter-react-ui@npm:0.9.27"
   dependencies:
@@ -2123,7 +2123,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solana/wallet-adapter-react@npm:^0.15.24, @solana/wallet-adapter-react@npm:^0.15.28":
+"@solana/wallet-adapter-react@npm:^0.15.28":
   version: 0.15.28
   resolution: "@solana/wallet-adapter-react@npm:0.15.28"
   dependencies:
@@ -2194,15 +2194,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solana/wallet-adapter-solflare@npm:^0.6.21":
-  version: 0.6.21
-  resolution: "@solana/wallet-adapter-solflare@npm:0.6.21"
+"@solana/wallet-adapter-solflare@npm:^0.6.22":
+  version: 0.6.22
+  resolution: "@solana/wallet-adapter-solflare@npm:0.6.22"
   dependencies:
     "@solana/wallet-adapter-base": ^0.9.20
     "@solflare-wallet/sdk": ^1.2.0
   peerDependencies:
     "@solana/web3.js": ^1.58.0
-  checksum: 3a877779ba9780f77431aede211562fe601147dea7488e8eb27ae967b7bf81de93beba9865dba0cc933a0b456a053de0786ccdf311d5fbee42f31479394ee417
+  checksum: 0304b974b4d9541f8e428bf766933b73691826dbf95b621cc767f7e2ff7bb158c169e35c157c3a1782fdc522d7c596287a96fd64f5b7f1e535ee306a7d08b38e
   languageName: node
   linkType: hard
 
@@ -2324,9 +2324,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solana/wallet-adapter-wallets@npm:^0.19.5":
-  version: 0.19.10
-  resolution: "@solana/wallet-adapter-wallets@npm:0.19.10"
+"@solana/wallet-adapter-wallets@npm:^0.19.11":
+  version: 0.19.11
+  resolution: "@solana/wallet-adapter-wallets@npm:0.19.11"
   dependencies:
     "@solana/wallet-adapter-alpha": ^0.1.7
     "@solana/wallet-adapter-avana": ^0.1.10
@@ -2355,13 +2355,13 @@ __metadata:
     "@solana/wallet-adapter-nufi": ^0.1.13
     "@solana/wallet-adapter-onto": ^0.1.4
     "@solana/wallet-adapter-particle": ^0.1.7
-    "@solana/wallet-adapter-phantom": ^0.9.19
+    "@solana/wallet-adapter-phantom": ^0.9.20
     "@solana/wallet-adapter-safepal": ^0.5.15
     "@solana/wallet-adapter-saifu": ^0.1.12
     "@solana/wallet-adapter-salmon": ^0.1.11
     "@solana/wallet-adapter-sky": ^0.1.12
     "@solana/wallet-adapter-slope": ^0.5.18
-    "@solana/wallet-adapter-solflare": ^0.6.21
+    "@solana/wallet-adapter-solflare": ^0.6.22
     "@solana/wallet-adapter-sollet": ^0.11.14
     "@solana/wallet-adapter-solong": ^0.9.15
     "@solana/wallet-adapter-spot": ^0.1.12
@@ -2375,7 +2375,7 @@ __metadata:
     "@solana/wallet-adapter-xdefi": ^0.1.4
   peerDependencies:
     "@solana/web3.js": ^1.58.0
-  checksum: 2c6a9d5bf7905471f6b0486dbf0756af9e4355e4f3b169bb30d91d00d28b49e22f6cd2195f7eda09e1708015587f436154563711ecb5a548e0d63447913407f4
+  checksum: 4c5456e13d310f3d1a4decdd2a4d43b1f3b99a1f38cd358817c41f63500ff3306d511c9ea919ac386755f46d6e318e364081856a47981602bf93bfb9c291941c
   languageName: node
   linkType: hard
 
@@ -2452,7 +2452,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solana/web3.js@npm:^1.32.0, @solana/web3.js@npm:^1.36.0, @solana/web3.js@npm:^1.44.3, @solana/web3.js@npm:^1.56.2, @solana/web3.js@npm:^1.62.0, @solana/web3.js@npm:^1.63.1, @solana/web3.js@npm:^1.66.2, @solana/web3.js@npm:^1.70.1":
+"@solana/web3.js@npm:^1.32.0, @solana/web3.js@npm:^1.36.0, @solana/web3.js@npm:^1.44.3, @solana/web3.js@npm:^1.56.2, @solana/web3.js@npm:^1.63.1, @solana/web3.js@npm:^1.66.2, @solana/web3.js@npm:^1.68.0, @solana/web3.js@npm:^1.70.1":
   version: 1.73.0
   resolution: "@solana/web3.js@npm:1.73.0"
   dependencies:
@@ -2724,27 +2724,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thirdweb-dev/contracts-js@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "@thirdweb-dev/contracts-js@npm:1.2.2"
+"@thirdweb-dev/auth@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@thirdweb-dev/auth@npm:3.0.1"
   dependencies:
-    "@thirdweb-dev/contracts": 3.2.8-0
+    cookie: ^0.5.0
+    uuid: ^9.0.0
+    zod: ^3.20.2
+  peerDependencies:
+    "@noble/ed25519": ^1.7.1
+    "@solana/web3.js": ^1.73.0
+    "@thirdweb-dev/sdk": ^3.7.1
+    bs58: ^5.0.0
+    cookie-parser: ^1.4.6
+    ethers: ">=5.5.1"
+    express: ^4.18.1
+    next: ^12.2.0
+    next-auth: ^4.10.3
+    tweetnacl: ^1.0.3
+  peerDependenciesMeta:
+    "@noble/ed25519":
+      optional: true
+    "@solana/web3.js":
+      optional: true
+    bs58:
+      optional: true
+    cookie-parser:
+      optional: true
+    ethers:
+      optional: true
+    express:
+      optional: true
+    next:
+      optional: true
+    next-auth:
+      optional: true
+    tweetnacl:
+      optional: true
+  checksum: 73c5a2d2a3d66e7417687210cadc0d69051ac7bbc541af9c854e2ac096dbcfb1a6843c4ee0bd4a31a3dc1837fd0bc345b8de4c718bb948f140a76e94cf723d16
+  languageName: node
+  linkType: hard
+
+"@thirdweb-dev/contracts-js@npm:^1.2.3":
+  version: 1.2.3
+  resolution: "@thirdweb-dev/contracts-js@npm:1.2.3"
+  dependencies:
+    "@thirdweb-dev/contracts": 3.3.0
   peerDependencies:
     ethers: ^5.7.0
-  checksum: faefddad284358f4fcdd8b2c9f9c9e45b8858554aed80969a604bed7c93b4ec64c7cf69d1242b003d5f440f3131eed8ead1c420d812f19928f6b2c4d5cd579c1
+  checksum: 29f3673a5459ad9103b3289fa834d9250b17d05bbc6a3444ee2714597f62d70ae6c834577bc82eb08370a4150245e8200127b7679fa5e11ee7c2a2e9edfe51fd
   languageName: node
   linkType: hard
 
-"@thirdweb-dev/contracts@npm:3.2.8-0":
-  version: 3.2.8-0
-  resolution: "@thirdweb-dev/contracts@npm:3.2.8-0"
-  checksum: 2b1cad36eb865055d4c7a9d93b0d9445332249c3ff2a1c219da9c81caa3fca230e64e2c3d135ca0167c7f7838cb7f360e073dff3754640456e7cf9b9be6e055e
+"@thirdweb-dev/contracts@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@thirdweb-dev/contracts@npm:3.3.0"
+  checksum: 198ce22bc9cd8527bb97246f31fc9c3267a681076be1e53ec586f2250be7275b0de4062a0e9c7f7a032b77aad1abbe0b9246ec46741688e639286b9beb3046ef
   languageName: node
   linkType: hard
 
-"@thirdweb-dev/react@npm:^3":
-  version: 3.6.9
-  resolution: "@thirdweb-dev/react@npm:3.6.9"
+"@thirdweb-dev/react-core@npm:^3.7.1":
+  version: 3.7.1
+  resolution: "@thirdweb-dev/react-core@npm:3.7.1"
+  dependencies:
+    "@tanstack/react-query": ^4.0.10
+    "@thirdweb-dev/auth": ^3.0.1
+    tiny-invariant: ^1.2.0
+  peerDependencies:
+    "@solana/wallet-adapter-react": ^0.15.19
+    "@solana/web3.js": ^1.62.0
+    "@thirdweb-dev/sdk": ^3.7.1
+    ethers: ">=5.5.1"
+    react: ">=18.0.0"
+  peerDependenciesMeta:
+    "@solana/wallet-adapter-react":
+      optional: true
+    "@solana/web3.js":
+      optional: true
+  checksum: e93e0c5db78411adf66f50f535bdf85504717b6191d589e364b6fdcccafa260eb2f178a0713e4ec32c57d83309713f215f33c351b2ab74d6ede9134791bc17e9
+  languageName: node
+  linkType: hard
+
+"@thirdweb-dev/react@npm:^3.7.1":
+  version: 3.7.1
+  resolution: "@thirdweb-dev/react@npm:3.7.1"
   dependencies:
     "@emotion/react": ^11.10.0
     "@emotion/styled": ^11.10.0
@@ -2752,8 +2815,8 @@ __metadata:
     "@safe-global/safe-core-sdk": ^3.2.0
     "@safe-global/safe-ethers-adapters": 0.1.0-alpha.13
     "@safe-global/safe-ethers-lib": ^1.7.0
-    "@solana/wallet-adapter-phantom": ^0.9.17
     "@tanstack/react-query": ^4.0.10
+    "@thirdweb-dev/react-core": ^3.7.1
     "@zag-js/menu": ^0.3.0
     "@zag-js/react": ^0.3.1
     buffer: ^6.0.3
@@ -2767,15 +2830,18 @@ __metadata:
     wagmi: ^0.2.28
   peerDependencies:
     "@solana/wallet-adapter-base": ^0.9.17
+    "@solana/wallet-adapter-phantom": ^0.9.17
     "@solana/wallet-adapter-react": ^0.15.19
     "@solana/wallet-adapter-wallets": ^0.19.0
     "@solana/web3.js": ^1.62.0
-    "@thirdweb-dev/sdk": ^3.6.9
+    "@thirdweb-dev/sdk": ^3.7.1
     ethers: ">=5.5.1"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
   peerDependenciesMeta:
     "@solana/wallet-adapter-base":
+      optional: true
+    "@solana/wallet-adapter-phantom":
       optional: true
     "@solana/wallet-adapter-react":
       optional: true
@@ -2783,20 +2849,15 @@ __metadata:
       optional: true
     "@solana/web3.js":
       optional: true
-  checksum: fbacd216c3e8442dfa8193093829d33ce0474a67f9fd97d79eea2cb7b2772791dd58f9ece51d4e49fa5e2405392b1df1745ea0aadc30f69d82067a92d4b2dd30
+  checksum: bf2e300a4cd68804721a4b31bd451b5344e548d4b16a051c5e077c41cd73635afe83645b8c9080e3b1c0eb3e91c9704d780ca2c9c4b08000cecea42c9660a1a7
   languageName: node
   linkType: hard
 
-"@thirdweb-dev/sdk@npm:^3":
-  version: 3.6.9
-  resolution: "@thirdweb-dev/sdk@npm:3.6.9"
+"@thirdweb-dev/sdk@npm:^3.7.1":
+  version: 3.7.1
+  resolution: "@thirdweb-dev/sdk@npm:3.7.1"
   dependencies:
-    "@metaplex-foundation/js": ^0.17.6
-    "@metaplex-foundation/mpl-token-metadata": ^2.3.3
-    "@project-serum/anchor": ^0.25.0
-    "@solana/spl-token": ^0.3.5
-    "@solana/web3.js": ^1.62.0
-    "@thirdweb-dev/contracts-js": ^1.2.2
+    "@thirdweb-dev/contracts-js": ^1.2.3
     "@thirdweb-dev/storage": ^1.0.6
     bn.js: ^5.2.1
     bs58: ^5.0.0
@@ -2811,14 +2872,29 @@ __metadata:
     zod: ^3.11.6
   peerDependencies:
     "@aws-sdk/client-secrets-manager": ^3.215.0
+    "@metaplex-foundation/js": ^0.17.6
+    "@metaplex-foundation/mpl-token-metadata": ^2.3.3
+    "@project-serum/anchor": ^0.25.0
+    "@solana/spl-token": ^0.3.5
+    "@solana/web3.js": ^1.62.0
     ethers: ^5
     ethers-aws-kms-signer: ^1.3.2
   peerDependenciesMeta:
     "@aws-sdk/client-secrets-manager":
       optional: true
+    "@metaplex-foundation/js":
+      optional: true
+    "@metaplex-foundation/mpl-token-metadata":
+      optional: true
+    "@project-serum/anchor":
+      optional: true
+    "@solana/spl-token":
+      optional: true
+    "@solana/web3.js":
+      optional: true
     ethers-aws-kms-signer:
       optional: true
-  checksum: 7ce163ed2200bac98c1bcab35654e233115889e029439c8434b52ae7f1a64523d9c470d6274218482b0cb14fd735b8eaaa41824f12d9ca9b711385f74ab23415
+  checksum: 3afffe0c74572a2ae770948c086981bc2470bb70f0b782cbcb468fab36e35dd9c33302f121d4cf0ae792170d5d0bb9872881a529ff7b707ef9e98f04734a4f5f
   languageName: node
   linkType: hard
 
@@ -4831,10 +4907,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camelcase@npm:^5.0.0, camelcase@npm:^5.3.1":
+"camelcase@npm:^5.0.0":
   version: 5.3.1
   resolution: "camelcase@npm:5.3.1"
   checksum: e6effce26b9404e3c0f301498184f243811c30dfe6d0b9051863bd8e4034d09c8c2923794f280d6827e5aa055f6c434115ff97864a16a963366fb35fd673024b
+  languageName: node
+  linkType: hard
+
+"camelcase@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "camelcase@npm:6.3.0"
+  checksum: 8c96818a9076434998511251dcb2761a94817ea17dbdc37f47ac080bd088fc62c7369429a19e2178b993497132c8cbcf5cc1f44ba963e76782ba469c0474938d
   languageName: node
   linkType: hard
 
@@ -5094,6 +5177,13 @@ __metadata:
   version: 1.9.0
   resolution: "convert-source-map@npm:1.9.0"
   checksum: dc55a1f28ddd0e9485ef13565f8f756b342f9a46c4ae18b843fe3c30c675d058d6a4823eff86d472f187b176f0adf51ea7b69ea38be34be4a63cbbf91b0593c8
+  languageName: node
+  linkType: hard
+
+"cookie@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "cookie@npm:0.5.0"
+  checksum: 1f4bd2ca5765f8c9689a7e8954183f5332139eb72b6ff783d8947032ec1fdf43109852c178e21a953a30c0dd42257828185be01b49d1eb1a67fd054ca588a180
   languageName: node
   linkType: hard
 
@@ -10759,11 +10849,13 @@ __metadata:
   dependencies:
     "@headlessui/react": ^1.7.7
     "@heroicons/react": ^2.0.14
-    "@solana/wallet-adapter-react": ^0.15.24
-    "@solana/wallet-adapter-react-ui": ^0.9.22
-    "@solana/wallet-adapter-wallets": ^0.19.5
-    "@thirdweb-dev/react": ^3
-    "@thirdweb-dev/sdk": ^3
+    "@metaplex-foundation/js": ^0.18.0
+    "@project-serum/anchor": ^0.26.0
+    "@solana/wallet-adapter-react": ^0.15.28
+    "@solana/wallet-adapter-react-ui": ^0.9.27
+    "@solana/wallet-adapter-wallets": ^0.19.11
+    "@thirdweb-dev/react": ^3.7.1
+    "@thirdweb-dev/sdk": ^3.7.1
     "@types/node": ^18.11.9
     "@types/react": ^18.0.25
     autoprefixer: ^10.4.13
@@ -11462,7 +11554,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.11.6":
+"zod@npm:^3.11.6, zod@npm:^3.20.2":
   version: 3.20.2
   resolution: "zod@npm:3.20.2"
   checksum: 04172f7e9350372684ccd298d4716908edc9113751295b6c4e1b3ea84e2af8997e504b33ba36f4741417bb2a5dc90bfd40501f6b0e7389df10e42a63d6d8366c
