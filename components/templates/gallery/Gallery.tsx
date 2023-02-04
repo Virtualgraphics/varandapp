@@ -6,30 +6,14 @@ import Image from 'next/image'
 import React from 'react';
 import { ThirdwebSDK } from "@thirdweb-dev/sdk/solana";
 import { useProgram, useClaimNFT, useClaimConditions, useProgramMetadata } from "@thirdweb-dev/react/solana"
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+
 
 require("@solana/wallet-adapter-react-ui/styles.css");
 
 
 
-
-
-const Games = () => {
+const Gallery = () => {
  
-  const { program } = useProgram(
-    "4eSovqrpYCRva7hjx2BXsTRsDby4amfvwkyqR7ZMDLND", 
-    "nft-drop"
-    );
-
-    const { data: metadata, isLoading: loadingMetadata } =
-    useProgramMetadata(program);
-
-    const { data: claimConditions, isLoading: loadingClaimconditions} =
-    useClaimConditions(program);
-
-    const { mutateAsync: claim, isLoading, error} = useClaimNFT(program);
-
-   
   
       return (
 
@@ -54,25 +38,12 @@ const Games = () => {
            Claim your SAVAGE VARAN SOCIETY NFTs below and play the Savage Varan Games. 
             </p>
 
-
-
-
-
               </div>
 </div>
 
-
-     
-        
-          
-       
-        
-        
-
- 
 
       );
     };
 
  
-  export default Games;
+  export default Gallery;

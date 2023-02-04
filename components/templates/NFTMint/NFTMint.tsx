@@ -56,10 +56,10 @@ const NFTMint = () => {
 
 <div className="m-auto w-full h-144">
 
-<div className="bg-indigo-900/20 rounded-3xl max-w-sm drop-shadow-lg m-auto" >
+<div className="bg-indigo-900/20 rounded-3xl max-w-sm  m-auto" >
 
 <Image
-              className="p-10 rounded-full shadow-3xl"
+              className="rounded-3xl pb-5 "
               src="/assets/varan_collection.jpg"
               alt="nft"
               width={1260}
@@ -75,26 +75,24 @@ loadingMetadata? <h1 className ="text-white">Loading...</h1> : <h1 className ="t
 loadingClaimconditions ? (
   <p className ="text-white">Loading...</p>
       ): (
-<div>
-  <h3>Claimed NFTs so far:</h3>
-  <p>
+<div >
+  <h3 className='text-lg font-semibold text-green-800'>Claimed NFTs so far:</h3>
+  <p className='text-yellow-200
+  '>
 {claimConditions?.claimedSupply} / {claimConditions?.maxClaimable}
 
   </p>
 </div>
       )
      }
-    
-     <button  className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded mt-1"
+    <div className='py-7'>
+     <button  className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded-xl mt-1"
          onClick={() =>
         claim({
           amount: 1,
         })
       }> Mint NFT </button>
-      
-  
-          
-
+      </div>
          </div>
 
 
