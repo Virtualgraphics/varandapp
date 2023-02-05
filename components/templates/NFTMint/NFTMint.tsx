@@ -6,10 +6,9 @@ import Image from 'next/image'
 import React from 'react';
 import { ThirdwebSDK } from "@thirdweb-dev/sdk/solana";
 import { useProgram, useClaimNFT, useClaimConditions, useProgramMetadata } from "@thirdweb-dev/react/solana"
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+
 
 require("@solana/wallet-adapter-react-ui/styles.css");
-
 
 
 
@@ -86,7 +85,7 @@ loadingClaimconditions ? (
       )
      }
     <div className='py-7'>
-     <button  className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded-xl mt-1"
+     <button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded-xl mt-1"
          onClick={() =>
         claim({
           amount: 1,

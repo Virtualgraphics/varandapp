@@ -16,18 +16,7 @@ require("@solana/wallet-adapter-react-ui/styles.css");
 
 const Games = () => {
  
-  const { program } = useProgram(
-    "4eSovqrpYCRva7hjx2BXsTRsDby4amfvwkyqR7ZMDLND", 
-    "nft-drop"
-    );
-
-    const { data: metadata, isLoading: loadingMetadata } =
-    useProgramMetadata(program);
-
-    const { data: claimConditions, isLoading: loadingClaimconditions} =
-    useClaimConditions(program);
-
-    const { mutateAsync: claim, isLoading, error} = useClaimNFT(program);
+  
 
    
   

@@ -3,6 +3,7 @@ import { ThirdwebProvider } from "@thirdweb-dev/react/solana";
 import { Network } from "@thirdweb-dev/sdk/solana";
 import type { AppProps } from "next/app";
 import '../styles/index.css';
+import styles from "../styles/Home.module.css";
 
 
 

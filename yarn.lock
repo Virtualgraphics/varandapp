@@ -10314,6 +10314,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"style-loader@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "style-loader@npm:3.3.1"
+  peerDependencies:
+    webpack: ^5.0.0
+  checksum: 470feef680f59e2fce4d6601b5c55b88c01ad8d1dd693c528ffd591ff5fd7c01a4eff3bdbe62f26f847d6bd2430c9ab594be23307cfe7a3446ab236683f0d066
+  languageName: node
+  linkType: hard
+
 "styled-jsx@npm:5.1.1":
   version: 5.1.1
   resolution: "styled-jsx@npm:5.1.1"
@@ -10868,6 +10877,7 @@ __metadata:
     react-dom: ^18.2.0
     react-icon: ^1.0.0
     react-slideshow-image: ^4.2.0
+    style-loader: ^3.3.1
     tailwindcss: ^3.2.4
     typescript: ^4.9.3
   languageName: unknown

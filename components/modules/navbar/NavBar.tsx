@@ -14,7 +14,7 @@ const navigation = [
   { name: 'WEBTOON', href: 'webtoon', current: false },
   { name: 'NFTs', href: 'nftmint', current: false },
   { name: 'TOKENS', href: 'token', current: false },
-  { name: 'GALLERY', href: 'gallery', current: false },
+  
 ]
 
 function classNames(...classes) {
