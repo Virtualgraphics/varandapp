@@ -4,31 +4,14 @@ import type { NextPage } from "next";
 import { FC, useEffect } from 'react';
 import Image from 'next/image'
 import React from 'react';
-import { ThirdwebSDK } from "@thirdweb-dev/sdk/solana";
-import { useProgram, useClaimNFT, useClaimConditions, useProgramMetadata } from "@thirdweb-dev/react/solana"
 
 
-require("@solana/wallet-adapter-react-ui/styles.css");
 
 
 
 
 const NFTMint = () => {
  
-  const { program } = useProgram(
-    "4eSovqrpYCRva7hjx2BXsTRsDby4amfvwkyqR7ZMDLND", 
-    "nft-drop"
-    );
-
-    const { data: metadata, isLoading: loadingMetadata } =
-    useProgramMetadata(program);
-
-    const { data: claimConditions, isLoading: loadingClaimconditions} =
-    useClaimConditions(program);
-
-    const { mutateAsync: claim, isLoading, error} = useClaimNFT(program);
-
-   
   
       return (
 
@@ -66,31 +49,12 @@ const NFTMint = () => {
             />
 
 
-{ 
-loadingMetadata? <h1 className ="text-white">Loading...</h1> : <h1 className ="text-yellow-200 text-2xl font-bold font-Bowlby">{metadata?.name}</h1>
-}
-      
-{        
-loadingClaimconditions ? (
-  <p className ="text-white">Loading...</p>
-      ): (
-<div >
-  <h3 className='text-lg font-semibold text-green-800'>Claimed NFTs so far:</h3>
-  <p className='text-yellow-200
-  '>
-{claimConditions?.claimedSupply} / {claimConditions?.maxClaimable}
 
-  </p>
-</div>
       )
-     }
+     
     <div className='py-7'>
      <button className="bg-blue-500 hover:bg-blue-700 text-white w-40 h-10 font-bold  px-4 rounded-xl mt-1"
-         onClick={() =>
-        claim({
-          amount: 1,
-        })
-      }> Mint NFT </button>
+        > Mint NFT </button>
       </div>
          </div>
 

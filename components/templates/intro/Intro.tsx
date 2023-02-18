@@ -21,18 +21,20 @@ const Intro = () => {
               width={1260}
               height={750}
             />
-            <h5 className=" text-blue-800 mb-2 text-xl font-bold leading-none sm:text-2xl">
+            <h5 className=" text-center text-blue-800 mb-2 text-xl font-bold leading-none sm:text-2xl">
               GAMES
             </h5>
-            <p className="text-green-800 font-bold">
+            <p className="text-green-800 font-bold text-center">
             Play a top down online game as a Varan and search 
             the island for the treasure while fighting against 
             Butchs evil henchmen and earn tokens.
             </p>
+
+            <div className='flex flex-items-center justify-center'>
             <Link href="/games">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
   Find out more
-</button></Link>
+</button></Link> </div>
           </div>
           <div>
           <Image
@@ -42,17 +44,17 @@ const Intro = () => {
               width={1260}
               height={750}
             />
-            <h5 className="text-blue-800 mb-2 text-xl font-bold leading-none sm:text-2xl">
+            <h5 className="text-center text-blue-800 mb-2 text-xl font-bold leading-none sm:text-2xl">
              CARTOONS
             </h5>
-            <p className="text-green-800 font-bold">
+            <p className="text-green-800 font-bold text-center">
             Watch the story of the Savage Varans in short cartoon episodes, 
             get clues and pledge tokens on how the story will continue.
             </p>
-           
+           <div className='flex flex-items-center justify-center'>
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
  Coming soon
-</button>
+</button> </div>
           </div>
           <div>
           <Image
@@ -62,17 +64,18 @@ const Intro = () => {
               width={1260}
               height={750}
             />
-            <h5 className="text-blue-800 mb-2 text-xl font-bold leading-none sm:text-2xl">
+            <h5 className="text-center text-blue-800 mb-2 text-xl font-bold leading-none sm:text-2xl">
               WEBTOONS
             </h5>
-            <p className="text-green-800 font-bold">
+            <p className="text-green-800 font-bold text-center">
             Get entertained by short and fun comic strips of the 
             Savage Varans crazy island life and find the necessary 
             clues that will lead you to the treasure.
             </p>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+            <div className='flex flex-items-center justify-center'>
+            <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
   Coming soon
-</button>
+</button></div>
           </div>
         </div>
       </div>
